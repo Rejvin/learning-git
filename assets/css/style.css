@@ -1,0 +1,246 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+ body {
+     font-size: 18px;
+     font-family:'Segoe UI';
+     background-image: url(../images/background.jpg);
+     background-size: cover;
+     background-position: center;
+}
+ .container {
+     width: 80%;
+     margin: auto;
+     overflow: hidden;
+}
+ .section-padding {
+    padding: 100px 0;
+}
+ .section-title {
+     text-align: center;
+     text-transform: uppercase;
+}
+ h1 {
+     font-size: 80px;
+     text-transform: uppercase;
+     color: #464b4f;
+}
+ a {
+     text-decoration: none;
+}
+/**------ Header area ------**/
+ .header-wrap {
+     background-image: url(../images/background-black.jpg);
+     background-size: cover;
+     background-position: center;
+     padding-bottom: 50px;
+}
+ .header-logo {
+     text-align: center;
+     padding: 80px 0 190px 0;
+}
+ .header-content {
+    color: #ffffff;
+}
+ .header-content h1 {
+     padding-bottom: 60px;
+     color: #ffffff;
+}
+ .header-content, .header-direction {
+    text-align: center;
+}
+ .header-direction i {
+     background: transparent;
+     color: #ffffff;
+     border: 2px solid #ffffff;
+     height: 40px;
+     width: 40px;
+     line-height: 40px;
+     border-radius: 100%;
+     -webkit-transition: all .4s ease;
+     transition: all .4s ease;
+}
+ .header-direction i:hover {
+     background: #ffffff;
+     color: #7b77c9;
+}
+ .header-direction {
+    padding-top: 185px;
+}
+/**------ /Header area ------**/
+/**------ About area ------**/
+ .about-description {
+     text-align: center;
+     color: #464b4f;
+     font-size: 30px;
+     padding: 0 165px;
+}
+ .about-description p:first-child {
+     padding-bottom: 60px;
+}
+ .about-content {
+    padding-top: 130px;
+}
+ .about-content .section-title {
+    padding-bottom: 100px;
+}
+ .about-content-wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+ .single-about-wrap p {
+     padding: 30px 90px 0 0;
+     color: #888a8b;
+}
+ .single-about-wrap h2 {
+     font-size: 18px;
+     color: #464b4f;
+}
+/**------ /About area ------**/
+/**------ Work area ------**/
+ .work-wrap, .subscribe-wrap {
+     background-image: url(../images/background-black.jpg);
+     background-size: cover;
+     background-position: center;
+}
+ .work-wrap .section-title h1 {
+    color: #ffffff;
+}
+ .work-list-wrap ul {
+     margin: 0;
+     list-style: none;
+     text-align: center;
+     padding: 30px 0 50px 0;
+}
+ .work-list-wrap li {
+     display: inline-block;
+     padding-right: 50px;
+}
+ .work-list-wrap li a {
+     color: #ffffff;
+     font-size: 14px;
+     padding-bottom: 10px;
+     border-bottom: 1px solid transparent;
+     -webkit-transition: all .4s ease;
+     transition: all .4s ease;
+}
+ .work-list-wrap li.active a {
+    border-bottom: 1px solid #7b77c9;
+}
+ .work-list-wrap li:hover a {
+    color: #7b77c9;
+     border-bottom: 1px solid #7b77c9;
+}
+ .work-content-wrap {
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+     -ms-flex-wrap: wrap;
+         flex-wrap: wrap;
+}
+ .single-work-area {
+     width: 33.333%;
+     position: relative;
+     padding: 15px;
+     padding-bottom: 50px;
+}
+ .single-work-area img {
+    width: 100%;
+}
+ .work-content {
+    text-align: center;
+}
+ .work-content h3 {
+     color: #ffffff;
+     font-size: 21px;
+     font-weight: 400;
+     padding: 30px 0 15px 0;
+}
+ .work-content p {
+     color: #818baa;
+     font-size: 14px;
+}
+ .work-btn-wrap {
+     text-align: center;
+     padding-top: 30px;
+}
+ .work-btn-wrap a, .photography-btn-wrap a {
+     background: #7b77c9;
+     color: #ffffff;
+     border: none;
+     padding: 20px 50px;
+     border-radius: 5px;
+     display: inline-block;
+}
+/**------ /Work area ------**/
+/**------ Photography area ------**/
+ .photography-wrap .section-title p {
+     font-size: 30px;
+     color: #888a8b;
+     padding: 60px 140px;
+}
+ .photography-content {
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+     -ms-flex-wrap: wrap;
+         flex-wrap: wrap;
+}
+ .single-photography-area {
+     width: 33.3333%;
+     position: relative;
+     padding: 15px;
+}
+ .single-photography-area img {
+    width: 100%;
+}
+ .photography-btn-wrap {
+     text-align: center;
+     padding-top: 80px;
+}
+/**------ /Photography area ------**/
+/**------ Subscribe area ------**/
+ .section-padding.subscribe-wrap {
+    padding: 265px 0;
+}
+ .subscribe-icon, .subscribe-text, .subscribe-form {
+    text-align: center;
+}
+ .subscribe-text {
+     color: #ffffff;
+     padding: 60px 0;
+}
+ .subscribe-form input {
+     width: 30%;
+     padding: 25px 20px;
+     border-radius: 5px;
+     border: none;
+     margin-right: 5px;
+}
+ .subscribe-form button {
+     background: #7b77c9;
+     border: none;
+     padding: 25px 70px;
+     border-radius: 5px;
+     color: #ffffff;
+}
+/**------ /Subscribe area ------**/
+/**------ Footer area ------**/
+ .social-links-wrap {
+    text-align: center;
+}
+ .social-links-wrap img {
+    margin: 0 50px;
+}
+ .copyright-wrap {
+     color: #7c7c7c;
+     text-align: center;
+     padding-top: 100px;
+}
+ .copyright-wrap p:first-child {
+     padding-bottom: 25px;
+}
+/**------ /Footer area ------**/
